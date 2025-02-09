@@ -1,0 +1,62 @@
+body {
+    background-color: #10161d;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 { 
+    color: #FCF5EB;
+    font-family: 'Hammersmith One', sans-serif;
+    font-size: 52px;
+    text-align: center;
+    margin: 0%;
+    margin-top: 45px;
+}
+
+h2 {
+    color: #FCF5EB;
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+    text-align: center;
+    font-weight: 450;
+    margin: 0%;
+}
+
+p, li, a {
+    color: #FCF5EB;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+
+a {color: #ffdaa7;  
+    text-decoration: none;}
+
+a:hover {
+    text-decoration: underline;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 100vw;
+    max-width: 100%;
+}
+
+mark {
+    background-color: #10161d;
+    color: #ffba5a
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+}
+
+.logo {
+    position: fixed;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 350px
+}
