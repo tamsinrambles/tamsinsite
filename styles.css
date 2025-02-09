@@ -58,6 +58,20 @@ footer{
     bottom: 50px;
     left: 50%;
     transform: translateX(-50%);
-    width: 25vw;
+    width: 300px;
 }
 
+.iframe { 
+    width: 160px;
+    max-width: 80%;
+    height: 90px;
+    max-height: 80%;
+}
+
+@media screen and (max-width: 600px) {
+    h1 { font-size: 36px; }
+    h2 { font-size: 18px; }
+    p, li, a { font-size: 14px; }
+    .iframe { width: 120px; height: 70px; }
+    .logo { width: 200px; }
+}
